@@ -1,0 +1,86 @@
+@font-face {
+	    font-family: 'CookieRun-Regular';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+				     font-weight: normal;
+					     font-style: normal;
+}
+
+.header-container a {
+	text-decoration: none;
+}
+
+.page-style {
+	outline: solid;
+	font-family: 'CookieRun-Regular', sans-serif;
+	padding: 10px;
+}
+
+textarea{
+	font-family: 'CookieRun-Regular', sans-serif;
+	resize:none;
+	overflow:hidden;
+}
+
+.page_title{
+	height:4.0rem;
+	bolder:0;
+	width:80%;
+	background-color:none;
+	font-size:3.0rem;
+}
+
+
+.comment_text{
+	height:1.5rem;
+	width:50%;
+	bolder:solid 2px #303030;
+	background-color:#e0e0e0;
+	font-size:1.1rem;
+}
+
+.commentor{
+	height:1.5rem;
+	width:15%;
+	text-align:center;
+	bolder:solid 1px #303030;
+	background-color:#c0c0c0;
+}
+
+.comment_date{
+	height:1.5rem;
+	width:25%;
+	text-align:center;
+	bolder:solid 1px #303030;
+	background-color:#e0e0e0;
+}
+
+.comment_text:hover{
+	background-color:#a0a0a0;
+}
+
+.closeButton{
+	height:1.5rem;
+	width:5%;
+	text-align:center;
+	background-color:#e0e0e0;
+}
+
+.closeButton:hover{
+	background-color:#a0a0a0;
+}
+
+.deleteButton{
+	height:4.0rem;
+	width:10%;
+	font-size:3.0rem;
+	text-align:center;
+	background-color:none;
+}
+
+.deleteButton:hover{
+	background-color:#b0b0b0;
+}
+
+.imgTag{
+width:90%;
+}

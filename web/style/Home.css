@@ -1,0 +1,113 @@
+@font-face {
+		    font-family: 'CookieRun-Regular';
+					    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+											     font-weight: normal;
+																	     font-style: normal;
+}
+
+
+.header-container a {
+	text-decoration: none;
+}
+
+.board-style {
+	outline: solid;
+	font-family: 'CookieRun-Regular', sans-serif;
+	padding: 10px;
+}
+
+.logo-slogan {
+	color: #CCD2F0;
+	font-size: 1.5rem;
+}
+
+.logo {
+	color: white;
+	font-weight: 900;
+	font-size: 5rem;
+}
+
+.logo-slash {
+	color: #FC5230;
+}
+
+.sub-logo {
+	color: #CCD2F0;
+	font-size: 1.8rem;
+}
+
+.web-menu {
+    background-color: #99a1c9;
+}
+
+.board-title{
+display:inline-block;
+	background-color: #c0c0c0;
+	width:60%;
+	padding:10px 0px 10px 0px;
+	text-align:center;
+	outline:1px ridge rgba(200,200,200,0.7);
+}
+
+a{
+	text-decoration:none
+}
+
+.board-author{
+display:inline-block;
+	background-color: #8a8a8a;
+	width:15%;
+	padding:10px 0px 10px 0px;
+	text-align:center;
+	outline:1px ridge rgba(200,200,200,0.7);
+}
+
+.board-date{
+display:inline-block;
+	background-color: #c0c0c0;
+	width:15%;
+	padding:10px;
+	text-align:center;
+	outline:1px ridge rgba(200,200,200,0.7);
+}
+
+.button-item {
+    text-align: center;
+    font-family: 'CookieRun-Regular', sans-serif;
+}
+
+.list-title{
+	display:inline-block;
+	background-color: #dddddd;
+	width:60%;
+	padding:10px 0px 10px 0px;
+	outline:1px ridge rgba(200,200,200,0.7);
+}
+
+
+
+.list-author{
+	display:inline-block;
+	background-color: #bebebe;
+	width:15%;
+	padding:10px 0px 10px 0px;
+	text-align:center;
+	outline:1px ridge rgba(200,200,200,0.7);
+}
+
+.list-date{
+	display:inline-block;
+	background-color: #dddddd;
+	width:15%;
+	padding:10px;
+	text-align:center;
+	outline:1px ridge rgba(200,200,200,0.7);
+}
+
+.list-title:hover{
+	background-color:#95e8ea;
+}
+
+.textfield{
+	width:400px;
+}
