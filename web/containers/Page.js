@@ -146,7 +146,7 @@ export default class Page extends Component{
 		List.push(<textarea className="deleteButton" readOnly
 			onClick={this.deletePage} value="X"/>);
 		
-		if(tmp.data.page.img!=null){
+		if(tmp.data.page.img!=null && tmp.data.page.img!="null"){
 			List.push(<br/>);
 			List.push(<img className="imgTag" src={"http://1.232.80.181:5555/"+tmp.data.page.img}/>);
 		}
