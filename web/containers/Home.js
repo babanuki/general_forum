@@ -46,7 +46,7 @@ export default class Home extends Component{
 
 		PW=encodeURIComponent(PW);
 
-		var res=await axios.post("http://1.232.80.181:5555/login", {
+		var res=await axios.post("http://url/login", {
 				id:ID,
 				pw:PW
 			}
