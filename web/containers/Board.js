@@ -21,7 +21,7 @@ export default class Board extends Component{
 			return;
 		}
 
-		var res=await axios.post("http://1.232.80.181:5555/list", {
+		var res=await axios.post("http://url/list", {
 			page:Page
 		});
 
