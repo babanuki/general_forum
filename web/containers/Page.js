@@ -16,7 +16,7 @@ export default class Page extends Component{
 	getPage=async()=>{
 		var ID=this.props.match.params.page;
 
-		var res=await axios.post("http://1.232.80.181:5555/page", {
+		var res=await axios.post("http://url/page", {
 			id:ID
 		});
 
@@ -70,7 +70,7 @@ export default class Page extends Component{
 			return;
 		}
 
-		var res=await axios.post("http://1.232.80.181:5555/comment1", {
+		var res=await axios.post("http://url/comment1", {
 			q:tmp,
 			script:ID,
 			comment_id:userID,
@@ -95,7 +95,7 @@ export default class Page extends Component{
 
 		PW=encodeURIComponent(PW);
 
-		var res=await axios.post("http://1.232.80.181:5555/delete_page", {
+		var res=await axios.post("http://url/delete_page", {
 			id:this.props.match.params.page,
 			code:PW
 		});
@@ -116,7 +116,7 @@ export default class Page extends Component{
 
 		PW=encodeURIComponent(PW);
 
-		var res=await axios.post("http://1.232.80.181:5555/delete_comment1", {
+		var res=await axios.post("http://url/delete_comment1", {
 			id:this.state.elim,
 			code:PW
 		});
@@ -148,7 +148,7 @@ export default class Page extends Component{
 		
 		if(tmp.data.page.img!=null && tmp.data.page.img!="null"){
 			List.push(<br/>);
-			List.push(<img className="imgTag" src={"http://1.232.80.181:5555/"+tmp.data.page.img}/>);
+			List.push(<img className="imgTag" src={"http://url/"+tmp.data.page.img}/>);
 		}
 		List.push(<br/>);
 		List.push(<h5>{tmp.data.page.inner_text}</h5>);
