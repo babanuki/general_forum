@@ -37,7 +37,7 @@ export default class Second extends Component {
 		}
 		PW=encodeURIComponent(PW);
 
-		var res=await axios.post("http://1.232.80.181:5555/create",
+		var res=await axios.post("http://url/create",
 				{
 					id:ID,
 					pw:PW
