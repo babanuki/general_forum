@@ -22,7 +22,7 @@ export default class Search extends Component{
 			return;
 		}
 
-		var res=await axios.post("http://1.232.80.181:5555/q",{
+		var res=await axios.post("http://url/q",{
 			query:q
 		});
 
