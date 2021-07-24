@@ -68,7 +68,7 @@ export default class Script extends Component{
 				headers:{"content-type":"multipart/form-data"}
 			};
 	
-			var res=await axios.post('http://1.232.80.181:5555/upload',
+			var res=await axios.post('http://url/upload',
 						formData,
 						config
 					);
@@ -83,7 +83,7 @@ export default class Script extends Component{
 
 		}
 
-		res=await axios.post("http://1.232.80.181:5555/script", {
+		res=await axios.post("http://url/script", {
 			title:Title,
 			inner:Inner,
 			id:ID,
